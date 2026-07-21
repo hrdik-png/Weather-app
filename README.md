@@ -17,6 +17,26 @@ A sleek, desktop-based weather application built with Python and PyQt5. This app
 ## 🚀 Installation & Setup
 
 **1. Clone the repository**
-```bash
+
 git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
 cd YOUR-REPO-NAME
+
+2. Install dependencies
+
+pip install PyQt5 requests python-dotenv
+
+
+3. Set up your API Key
+You will need a free API key from OpenWeatherMap.
+Create a file named exactly .env in the root directory of this project and add your key like this:
+
+Ini, TOML
+OPENWEATHER_API_KEY=your_api_key_here
+(Note: Ensure your .env file is listed in your .gitignore so your key remains private!)
+
+💻 Usage
+Run the application from your terminal:
+
+Bash
+python weather.py
+Type a city name into the input field and click "Get Weather" to see the current forecast.
