@@ -18,12 +18,11 @@ A sleek, desktop-based weather application built with Python and PyQt5. This app
 
 **1. Clone the repository**
 
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
-cd YOUR-REPO-NAME
+git clone https://github.com/hrdik-png/Weather-app
 
 2. Install dependencies
 
-pip install PyQt5 requests python-dotenv
+pip install PyQt5, requests, python-dotenv
 
 
 3. Set up your API Key
